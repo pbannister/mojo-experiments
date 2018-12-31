@@ -3,7 +3,7 @@
 # 	Collect VirtualBox guest information for Ubuntu / USB
 #
 
-STAMP=`date +%Y.%M.%d-%H.%m.%S`
+STAMP=`date +%Y.%m.%d-%H.%M.%S`
 LOGS=logs
 LOG=$LOGS/guest-$STAMP.log
 
