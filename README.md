@@ -2,12 +2,12 @@
 
 I have an FPGA development board. The development tool for the FPGA (Xilinx ISE) does not work on MacOS, so I spun up a Ubuntu guest. From the VirtualBox GUI, defined a USB device filter for the specific USB device. Fired up the VM, installed the development tools, and was able to program the device! I was impressed.
 
-Device:
-    Mojo V3 with a Xilinx Spartan 6 XC6SLX9 FPGA and ATmega32U4 microcontroller.
-Host:
-    MacOS (latest version)
-Guest:
-    Ubuntu (latest version)
+* Device:
+  * Mojo V3 with a Xilinx Spartan 6 XC6SLX9 FPGA and ATmega32U4 microcontroller.
+* Host:
+  * MacOS (latest version)
+* Guest:
+  * Ubuntu (latest version)
 
 Some time later, could not program the board. The USB device had disappeared from the guest.
 
