@@ -27,8 +27,8 @@ System specific
 ---- id
 `id`
 
----- lsusb -d $USB_DEVICE
-`lsusb -d $USB_DEVICE`
+---- lsusb -v -d $USB_DEVICE
+`lsusb -v -d $USB_DEVICE`
 
 XXXX
 
