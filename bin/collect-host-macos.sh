@@ -10,10 +10,12 @@ test -d $LOGS || mkdir -p $LOGS || {
 	exit 1
 }
 
+echo "LOG: $LOG"
+
 (
 	cat << XXXX
 =========================================================================
-System specific 
+System specific
 
 ---- uname -a
 `uname -a`
@@ -57,7 +59,7 @@ Capture the latest log from the VM.
 
 XXXX
 
-	VBoxManage showvminfo "$VM_NAME" --log 0 
+	VBoxManage showvminfo "$VM_NAME" --log 0
 
 
 	cat << XXXX
